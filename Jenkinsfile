@@ -18,6 +18,7 @@ pipeline{
 		}
 		stage ('Deploy Cointainer'){
 			steps{ sh 'echo Fase Deploy'
+				sh 'sudo docker-compose down'
 				sh 'sudo docker-compose up -d'		
 			}
 		}
