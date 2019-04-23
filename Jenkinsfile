@@ -18,8 +18,7 @@ pipeline{
 		}
 		stage ('Deploy Cointainer'){
 			steps{ sh 'echo Fase Deploy'
-				sh '		
-				sh 'sudo docker run --rm -d -p 80:80 --name <phpedsi>  php54'
+						
 			}
 		}
 	}
