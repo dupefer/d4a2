@@ -15,7 +15,7 @@ pipeline{
 			steps{ sh 'echo Fase Build'
 			}
 		}
-		stages {'Deploy Cointainer'){
+		stage {'Deploy Cointainer'){
 			steps{ sh 'echo Fase Deploy'		
 			}
 		}
