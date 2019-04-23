@@ -15,7 +15,7 @@ services:
       - 3306:3306
 
   php:
-    image: dupefer/d4a:v1
+    image: php54
     volumes:
       - ./code/:/var/www/html
     expose:
